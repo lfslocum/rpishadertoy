@@ -1,0 +1,14 @@
+* TODO Install glew, glm, freeglut?
+* TODO get x11 window working either through freeglut or vms code: make sure to use OpenGL ES 2.0 context; try to make a multisample buffer
+** TODO Strip x11glmanager down to barebones
+** TODO Write a simple main function that simple creates a glmanager window, sets gl context, clears to green, finishes the scene, then loops forever.
+** TODO Next, try to get fullscreen working.
+* TODO get a simple shader running with passtrhough vert and simple frag shader
+** TODO Finish GLShader class
+** TODO Finish ShaderToy class
+** TODO Need vertex buffer object, vertex attribute pointer, etc. Can use wgl code as a reference?
+* TODO add time uniform, orientation uniform
+* TODO get keyboard input working
+* TODO try to grab fullscreen code from VMS
+* TODO do stencil optimization
+** Or just draw a triangle that's not fullscreen!
